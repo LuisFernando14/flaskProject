@@ -1,1 +1,1 @@
-# flaskProject
+Hello world, this is my flask project and i'm no using any user interface with git, just terminal
