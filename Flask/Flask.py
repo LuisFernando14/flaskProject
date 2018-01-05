@@ -2,6 +2,7 @@ from flask import Flask, render_template, request, redirect, url_for
 from flaskext.mysql import MySQL
 from flask import jsonify,make_response
 from flask_json import json_response
+from sqlalchemy import *
 import json
 from datetime import datetime
 
@@ -9,11 +10,20 @@ app = Flask(__name__)
 mysql = MySQL()
 
 
+
+
+
+
+
+
+
+
+
 def connect():
-    app.config['MYSQL_DATABASE_USER'] = 'emmanuel'
-    app.config['MYSQL_DATABASE_PASSWORD'] = 'Emman3l247'
+    app.config['MYSQL_DATABASE_USER'] = 'apiconcretest'
+    app.config['MYSQL_DATABASE_PASSWORD'] = 'ApiConcreT3st'
     app.config['MYSQL_DATABASE_DB'] = 'credexweb'
-    app.config['MYSQL_DATABASE_HOST'] = '192.168.124.247'
+    app.config['MYSQL_DATABASE_HOST'] = '52.33.17.144'
     mysql.init_app(app)
 
 
@@ -28,15 +38,27 @@ def clientes ():
     connect()
     conn = mysql.connect()
     cursor = conn.cursor()
-    cursor.execute("SELECT id, nombre from comfu.clientes limit 20")
+    cursor.execute("SELECT id, nombre FROM comfu.clientes LIMIT 10")
     data = cursor.fetchall()
-    return render_template('clientes.html', data = data)
+    return jsonify(clientes = data)
+    #return render_template('clientes.html', data = data)
 
 
 @app.route('/clientes/add', methods=['POST', 'GET'])
 def nuevoCliente():
     if request.method == 'POST':
-        return redirect(url_for('index'))
+        connect()
+        conn = mysql.connect()
+        cursor = conn.cursor()
+        idBanco = request.form['idBanco']
+        idCliente = request.form['idCliente']
+        status = request.form['status']
+        tarjeta = request.form['tarjeta']
+        cursor.execute("INSERT INTO comfu.tarjetasStpClientes(banco, idCliente, status, tarjeta) VALUES (%s,%s,%s,%s)",
+                  (idBanco, idCliente, status, tarjeta))
+        conn.commit()
+        conn.close()
+        return 'Cliente agregado'
     return render_template('nuevoCliente.html')
 
 
