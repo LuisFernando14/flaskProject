@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8f7db502-b488-4b2b-8de2-c6faaa8b9876" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Flask/Flask.py" afterPath="$PROJECT_DIR$/Flask/Flask.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Flask/static/db.py" afterPath="$PROJECT_DIR$/Flask/static/db.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Flask/templates/clientes.html" afterPath="$PROJECT_DIR$/Flask/templates/clientes.html" />
-    </list>
+    <list default="true" id="8f7db502-b488-4b2b-8de2-c6faaa8b9876" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
