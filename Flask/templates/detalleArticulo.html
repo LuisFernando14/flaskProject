@@ -1,0 +1,61 @@
+{% extends "index.html" %}
+{% block title %}Detalle del artículo{% endblock %}
+{% block head %}
+  {{ super() }}
+  <style type="text/css">
+    .important { color: #336699; }
+  </style>
+{% endblock %}
+{% block content %}
+<div class="col-md-12">
+    <div class="row">
+        <div class="col-md-12">
+            <label id="claveClienteBuscado">Clave Cliente: </label>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12">
+            <div class="col-md-12">
+                <label for="txtNombreClienteConsultado">Nombre:</label>
+            </div>
+            <div class="col-md-12 text-left">
+                <input type="text" class="form-control" id="txtNombreClienteConsultado" name="" value = {{ data[0][0] }}>
+            </div>
+        </div>
+    </div>
+    <br>
+     <div class="row">
+        <div class="col-md-12">
+            <div class="col-md-12">
+                <label for="txtPaternoClienteConsultado">Apellido paterno:</label>
+            </div>
+            <div class="col-md-12">
+                <input type="text" class="form-control" id="txtPaternoClienteConsultado" name="" value = {{ data[0][1] }}>
+            </div>
+        </div>
+    </div>
+    <br>
+     <div class="row">
+        <div class="col-md-12">
+            <div class="col-md-12">
+                <label for="txtMaternoClienteConsultado">Apellido materno:</label>
+            </div>
+            <div class="col-md-12">
+                <input type="text" class="form-control" id="txtMaternoClienteConsultado" name="" value = {{ data[0][2] }}>
+            </div>
+        </div>
+    </div>
+    <br>
+     <div class="row">
+        <div class="col-md-12">
+            <div class="col-md-12">
+                <label for="txtRfcClienteConsultado">RFC:</label>
+            </div>
+            <div class="col-md-12">
+                <input type="text" class="form-control" id="txtRfcClienteConsultado" name="" value = {{ data[0][3] }}>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

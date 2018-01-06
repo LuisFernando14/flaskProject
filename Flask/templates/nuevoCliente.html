@@ -7,5 +7,95 @@
   </style>
 {% endblock %}
 {% block content %}
-    <h1>Nuevo clienteeee</h1>
+    <div class="col-md-12">
+        <form method="post" action="{{ url_for('nuevoCliente') }}">
+        <h1>Nuevo cliente</h1>
+
+		<div class="panel panel-primary">
+			<div class="panel-heading">
+	    		<h3 class="panel-title">Registro de Clientes</h3>
+	  		</div>
+	  		<div class="panel-body">
+
+	    		<div class="row">
+
+	    			<div class="col-md-4"></div>
+	    			<div class="col-md-4"></div>
+	    			<div class="col-md-4 text-center">
+	    				<label id="claveNuevoCliente" style="color: green;">
+	    					Clave: {{ data[0] }}
+	    				</label>
+	    			</div>
+	    		</div>
+	    		<div class="row">
+	    			<div class="form-group">
+		    			<div class="col-md-2 text-right">
+		    				<label>Nombre: </label>
+		    			</div>
+		    			<div class="col-md-4" style= "margin-left: 0px; padding-left: 0px;">
+		    				<input type="text" class="form-control text-left" required="" name="idBanco" id="idBanco">
+		    			</div>
+		    			<div class="col-md-6">
+		    			</div>
+	    			</div>
+	    		</div>
+	    		<br>
+	    		<div class="row">
+	    			<div class="form-group">
+		    			<div class="col-md-2 text-right">
+		    				<label>Apellido Paterno: </label>
+		    			</div>
+		    			<div class="col-md-4" style= "margin-left: 0px; padding-left: 0px;">
+		    				<input type="text" class="form-control text-left" required="" name="idCliente" id="idCliente">
+		    			</div>
+		    			<div class="col-md-6">
+		    			</div>
+	    			</div>
+	    		</div>
+	    		<br>
+	    		<div class="row">
+	    			<div class="form-group">
+		    			<div class="col-md-2 text-right">
+		    				<label>Apellido Materno: </label>
+		    			</div>
+		    			<div class="col-md-4" style= "margin-left: 0px; padding-left: 0px;">
+		    				<input type="text" class="form-control text-left" name="status" required="" id="status">
+		    			</div>
+		    			<div class="col-md-6">
+		    			</div>
+	    			</div>
+	    		</div>
+	    		<br>
+	    		<div class="row">
+	    			<div class="form-group">
+		    			<div class="col-md-2 text-right">
+		    				<label>RFC: </label>
+		    			</div>
+		    			<div class="col-md-4" style= "margin-left: 0px; padding-left: 0px;">
+		    				<input type="text" class="form-control text-left" required="" name="tarjeta" id="tarjeta">
+		    			</div>
+		    			<div class="col-md-6">
+		    			</div>
+	    			</div>
+	    		</div>
+
+	  		</div>
+		</div>
+		<div class="row">
+			<div class="col-md-4"></div>
+			<div id="mensajeSistema" class="col-md-4">
+
+			</div>
+			<div class="col-md-4">
+				<div class="col-md-6">
+					<a class="btn btn-lg btn-primary" href="{{ url_for('clientes') }}">Cancelar</a>
+				</div>
+				<div class="col-md-6">
+					<input type="submit" name="" id="btnSiguienteCliente" value="Siguiente" class="btn btn-lg btn-success">
+				</div>
+			</div>
+
+		</div>
+        </form>
+	</div>
 {% endblock %}

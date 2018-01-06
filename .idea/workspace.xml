@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8f7db502-b488-4b2b-8de2-c6faaa8b9876" name="Default" comment="" />
+    <list default="true" id="8f7db502-b488-4b2b-8de2-c6faaa8b9876" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Flask/db/DBConfig.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Flask/static/db.py" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Flask/Flask.py" afterPath="$PROJECT_DIR$/Flask/Flask.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Flask/templates/clientes.html" afterPath="$PROJECT_DIR$/Flask/templates/clientes.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Flask/templates/nuevoCliente.html" afterPath="$PROJECT_DIR$/Flask/templates/nuevoCliente.html" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,31 +17,19 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/flaskProject$Flask.coverage" NAME="Flask Coverage Results" MODIFIED="1515116430124" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Flask" />
+    <SUITE FILE_PATH="coverage/flaskProject$Flask.coverage" NAME="Flask Coverage Results" MODIFIED="1515203587141" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Flask" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Flask.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Flask/Flask.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="4" column="24" lean-forward="false" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-              <folding>
-                <marker date="1515116551912" expanded="true" signature="805:851" ph="SELECT id, n... clientes" />
-                <marker date="1515116551912" expanded="true" signature="1359:1440" ph="INSERT INTO comfu.tarjetasStpClientes... " />
-                <marker date="1515116551912" expanded="true" signature="1359:1452" ph="INSERT INTO comfu.tarjetasStpClientes... " />
-                <marker date="1515116551912" expanded="true" signature="1953:1989" ph="SELECT * fro... clientes" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="clientes.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Flask/templates/clientes.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="1" column="25" lean-forward="false" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
-              <folding />
+            <state relative-caret-position="340">
+              <caret line="41" column="158" lean-forward="false" selection-start-line="41" selection-start-column="158" selection-end-line="41" selection-end-column="158" />
+              <folding>
+                <element signature="n#style#0;n#a#0;n#td#2;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#2;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#a#0;n#td#2;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#2;n#div#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -42,26 +37,78 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Flask/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
+            <state relative-caret-position="-378">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="db.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Flask/static/db.py">
+      <file leaf-file-name="Flask.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Flask/Flask.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="9" column="54" lean-forward="false" selection-start-line="9" selection-start-column="54" selection-end-line="9" selection-end-column="54" />
+            <state relative-caret-position="376">
+              <caret line="69" column="80" lean-forward="false" selection-start-line="69" selection-start-column="80" selection-end-line="69" selection-end-column="80" />
               <folding>
-                <element signature="e#0#40#0" expanded="true" />
+                <element signature="e#15#83#0" expanded="true" />
+                <marker date="1515203516517" expanded="true" signature="666:723" ph="SELECT id, n... clientes" />
+                <marker date="1515203516517" expanded="true" signature="1203:1284" ph="INSERT INTO comfu.tarjetasStpClientes... " />
+                <marker date="1515203516517" expanded="true" signature="1203:1296" ph="INSERT INTO comfu.tarjetasStpClientes... " />
+                <marker date="1515203516517" expanded="true" signature="1571:1616" ph="SELECT MAX(i... tarjetasStpClientes" />
+                <marker date="1515203516517" expanded="true" signature="1904:1954" ph="SELECT * FRO... tarjetasStpClientes" />
+                <marker date="1515203516517" expanded="true" signature="1904:1957" ph="SELECT * FRO... tarjetasStpClientes" />
+                <marker date="1515203516517" expanded="true" signature="1904:1970" ph="SELECT * FRO... tarjetasStpClientes" />
+                <marker date="1515203516517" expanded="true" signature="2536:2572" ph="SELECT * fro... clientes" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="detalleArticulo.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Flask/templates/detalleArticulo.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="313">
+              <caret line="23" column="18" lean-forward="true" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="nuevoCliente.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Flask/templates/nuevoCliente.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="25" column="42" lean-forward="false" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DBConfig.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Flask/db/DBConfig.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>nombre</find>
+      <find>data</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -70,8 +117,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Flask/static/db.py" />
-        <option value="$PROJECT_DIR$/Flask/templates/clientes.html" />
+        <option value="$PROJECT_DIR$/Flask/db/DBConfig.py" />
+        <option value="$PROJECT_DIR$/Flask/templates/detalleArticulo.html" />
+        <option value="$PROJECT_DIR$/Flask/templates/nuevoCliente.html" />
         <option value="$PROJECT_DIR$/Flask/Flask.py" />
+        <option value="$PROJECT_DIR$/Flask/templates/clientes.html" />
       </list>
     </option>
   </component>
@@ -103,6 +153,7 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -119,7 +170,7 @@
               <item name="flaskProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="flaskProject" type="462c0819:PsiDirectoryNode" />
               <item name="Flask" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="db" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="flaskProject" type="b2602c69:ProjectViewProjectNode" />
@@ -131,12 +182,17 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Flask/db" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -190,16 +246,17 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="90" width="1303" height="780" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2621514" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21115538" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970452" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.377916" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.7667185" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32970452" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7993779" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -211,6 +268,27 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970452" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7667185" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7993779" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21115538" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -219,76 +297,19 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Flask/Flask.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1515116551912" expanded="true" signature="805:851" ph="SELECT id, n... clientes" />
-            <marker date="1515116551912" expanded="true" signature="1359:1440" ph="INSERT INTO comfu.tarjetasStpClientes... " />
-            <marker date="1515116551912" expanded="true" signature="1359:1452" ph="INSERT INTO comfu.tarjetasStpClientes... " />
-            <marker date="1515116551912" expanded="true" signature="1953:1989" ph="SELECT * fro... clientes" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Flask/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Flask/templates/clientes.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="25" lean-forward="false" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Flask/static/db.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="54" lean-forward="false" selection-start-line="9" selection-start-column="54" selection-end-line="9" selection-end-column="54" />
+        <state relative-caret-position="252">
+          <caret line="14" column="50" lean-forward="false" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="50" />
           <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Flask/Flask.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1515116551912" expanded="true" signature="805:851" ph="SELECT id, n... clientes" />
-            <marker date="1515116551912" expanded="true" signature="1359:1440" ph="INSERT INTO comfu.tarjetasStpClientes... " />
-            <marker date="1515116551912" expanded="true" signature="1359:1452" ph="INSERT INTO comfu.tarjetasStpClientes... " />
-            <marker date="1515116551912" expanded="true" signature="1953:1989" ph="SELECT * fro... clientes" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Flask/templates/clientes.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="25" lean-forward="false" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Flask/static/db.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="9" column="54" lean-forward="false" selection-start-line="9" selection-start-column="54" selection-end-line="9" selection-end-column="54" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#td#2;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#2;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#a#0;n#td#2;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#2;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -303,70 +324,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Flask/Flask.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="504">
+          <caret line="28" column="37" lean-forward="false" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
           <folding>
-            <marker date="1515116551912" expanded="true" signature="805:851" ph="SELECT id, n... clientes" />
-            <marker date="1515116551912" expanded="true" signature="1359:1440" ph="INSERT INTO comfu.tarjetasStpClientes... " />
-            <marker date="1515116551912" expanded="true" signature="1359:1452" ph="INSERT INTO comfu.tarjetasStpClientes... " />
-            <marker date="1515116551912" expanded="true" signature="1953:1989" ph="SELECT * fro... clientes" />
+            <element signature="e#15#83#0" expanded="true" />
+            <marker date="1515203516517" expanded="true" signature="666:723" ph="SELECT id, n... clientes" />
+            <marker date="1515203516517" expanded="true" signature="1203:1284" ph="INSERT INTO comfu.tarjetasStpClientes... " />
+            <marker date="1515203516517" expanded="true" signature="1203:1296" ph="INSERT INTO comfu.tarjetasStpClientes... " />
+            <marker date="1515203516517" expanded="true" signature="1571:1616" ph="SELECT MAX(i... tarjetasStpClientes" />
+            <marker date="1515203516517" expanded="true" signature="1904:1954" ph="SELECT * FRO... tarjetasStpClientes" />
+            <marker date="1515203516517" expanded="true" signature="1904:1957" ph="SELECT * FRO... tarjetasStpClientes" />
+            <marker date="1515203516517" expanded="true" signature="1904:1970" ph="SELECT * FRO... tarjetasStpClientes" />
+            <marker date="1515203516517" expanded="true" signature="2536:2572" ph="SELECT * fro... clientes" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Flask/Flask.py">
+    <entry file="file://$PROJECT_DIR$/Flask/templates/nuevoCliente.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1515116551912" expanded="true" signature="805:851" ph="SELECT id, n... clientes" />
-            <marker date="1515116551912" expanded="true" signature="1359:1440" ph="INSERT INTO comfu.tarjetasStpClientes... " />
-            <marker date="1515116551912" expanded="true" signature="1359:1452" ph="INSERT INTO comfu.tarjetasStpClientes... " />
-            <marker date="1515116551912" expanded="true" signature="1953:1989" ph="SELECT * fro... clientes" />
-          </folding>
+        <state relative-caret-position="1800">
+          <caret line="100" column="0" lean-forward="false" selection-start-line="100" selection-start-column="0" selection-end-line="100" selection-end-column="14" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Flask/Flask.py">
+    <entry file="file://$PROJECT_DIR$/Flask/templates/detalleArticulo.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1515116551912" expanded="true" signature="805:851" ph="SELECT id, n... clientes" />
-            <marker date="1515116551912" expanded="true" signature="1359:1440" ph="INSERT INTO comfu.tarjetasStpClientes... " />
-            <marker date="1515116551912" expanded="true" signature="1359:1452" ph="INSERT INTO comfu.tarjetasStpClientes... " />
-            <marker date="1515116551912" expanded="true" signature="1953:1989" ph="SELECT * fro... clientes" />
-          </folding>
+        <state relative-caret-position="1080">
+          <caret line="60" column="14" lean-forward="false" selection-start-line="60" selection-start-column="14" selection-end-line="60" selection-end-column="14" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Flask/Flask.py">
+    <entry file="file://$PROJECT_DIR$/Flask/db/DBConfig.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1515116551912" expanded="true" signature="805:851" ph="SELECT id, n... clientes" />
-            <marker date="1515116551912" expanded="true" signature="1359:1440" ph="INSERT INTO comfu.tarjetasStpClientes... " />
-            <marker date="1515116551912" expanded="true" signature="1359:1452" ph="INSERT INTO comfu.tarjetasStpClientes... " />
-            <marker date="1515116551912" expanded="true" signature="1953:1989" ph="SELECT * fro... clientes" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Flask/static/db.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="9" column="54" lean-forward="false" selection-start-line="9" selection-start-column="54" selection-end-line="9" selection-end-column="54" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Flask/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="216">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -376,10 +369,150 @@
         <state relative-caret-position="72">
           <caret line="4" column="24" lean-forward="false" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
           <folding>
-            <marker date="1515116551912" expanded="true" signature="805:851" ph="SELECT id, n... clientes" />
-            <marker date="1515116551912" expanded="true" signature="1359:1440" ph="INSERT INTO comfu.tarjetasStpClientes... " />
-            <marker date="1515116551912" expanded="true" signature="1359:1452" ph="INSERT INTO comfu.tarjetasStpClientes... " />
-            <marker date="1515116551912" expanded="true" signature="1953:1989" ph="SELECT * fro... clientes" />
+            <element signature="e#15#83#0" expanded="true" />
+            <marker date="1515203516517" expanded="true" signature="666:723" ph="SELECT id, n... clientes" />
+            <marker date="1515203516517" expanded="true" signature="1203:1284" ph="INSERT INTO comfu.tarjetasStpClientes... " />
+            <marker date="1515203516517" expanded="true" signature="1203:1296" ph="INSERT INTO comfu.tarjetasStpClientes... " />
+            <marker date="1515203516517" expanded="true" signature="1571:1616" ph="SELECT MAX(i... tarjetasStpClientes" />
+            <marker date="1515203516517" expanded="true" signature="1904:1954" ph="SELECT * FRO... tarjetasStpClientes" />
+            <marker date="1515203516517" expanded="true" signature="1904:1957" ph="SELECT * FRO... tarjetasStpClientes" />
+            <marker date="1515203516517" expanded="true" signature="1904:1970" ph="SELECT * FRO... tarjetasStpClientes" />
+            <marker date="1515203516517" expanded="true" signature="2536:2572" ph="SELECT * fro... clientes" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Flask/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Flask/db/DBConfig.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" column="54" lean-forward="false" selection-start-line="9" selection-start-column="54" selection-end-line="9" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Flask/templates/clientes.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="25" lean-forward="false" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#td#2;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#2;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#a#0;n#td#2;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#2;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Flask/Flask.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="24" lean-forward="false" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+          <folding>
+            <element signature="e#15#83#0" expanded="true" />
+            <marker date="1515203516517" expanded="true" signature="666:723" ph="SELECT id, n... clientes" />
+            <marker date="1515203516517" expanded="true" signature="1203:1284" ph="INSERT INTO comfu.tarjetasStpClientes... " />
+            <marker date="1515203516517" expanded="true" signature="1203:1296" ph="INSERT INTO comfu.tarjetasStpClientes... " />
+            <marker date="1515203516517" expanded="true" signature="1571:1616" ph="SELECT MAX(i... tarjetasStpClientes" />
+            <marker date="1515203516517" expanded="true" signature="1904:1954" ph="SELECT * FRO... tarjetasStpClientes" />
+            <marker date="1515203516517" expanded="true" signature="1904:1957" ph="SELECT * FRO... tarjetasStpClientes" />
+            <marker date="1515203516517" expanded="true" signature="1904:1970" ph="SELECT * FRO... tarjetasStpClientes" />
+            <marker date="1515203516517" expanded="true" signature="2536:2572" ph="SELECT * fro... clientes" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Flask/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Flask/db/DBConfig.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="54" lean-forward="false" selection-start-line="9" selection-start-column="54" selection-end-line="9" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Flask/templates/clientes.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="25" lean-forward="false" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#td#2;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#2;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#a#0;n#td#2;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#2;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Flask/Flask.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#15#83#0" expanded="true" />
+            <marker date="1515203516517" expanded="true" signature="666:723" ph="SELECT id, n... clientes" />
+            <marker date="1515203516517" expanded="true" signature="1203:1284" ph="INSERT INTO comfu.tarjetasStpClientes... " />
+            <marker date="1515203516517" expanded="true" signature="1203:1296" ph="INSERT INTO comfu.tarjetasStpClientes... " />
+            <marker date="1515203516517" expanded="true" signature="1571:1616" ph="SELECT MAX(i... tarjetasStpClientes" />
+            <marker date="1515203516517" expanded="true" signature="1904:1954" ph="SELECT * FRO... tarjetasStpClientes" />
+            <marker date="1515203516517" expanded="true" signature="1904:1957" ph="SELECT * FRO... tarjetasStpClientes" />
+            <marker date="1515203516517" expanded="true" signature="1904:1970" ph="SELECT * FRO... tarjetasStpClientes" />
+            <marker date="1515203516517" expanded="true" signature="2536:2572" ph="SELECT * fro... clientes" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Flask/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Flask/templates/clientes.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="25" lean-forward="false" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#td#2;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#2;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#a#0;n#td#2;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#2;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Flask/db/DBConfig.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="54" lean-forward="false" selection-start-line="9" selection-start-column="54" selection-end-line="9" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Flask/Flask.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#15#83#0" expanded="true" />
+            <marker date="1515203516517" expanded="true" signature="666:723" ph="SELECT id, n... clientes" />
+            <marker date="1515203516517" expanded="true" signature="1203:1284" ph="INSERT INTO comfu.tarjetasStpClientes... " />
+            <marker date="1515203516517" expanded="true" signature="1203:1296" ph="INSERT INTO comfu.tarjetasStpClientes... " />
+            <marker date="1515203516517" expanded="true" signature="1571:1616" ph="SELECT MAX(i... tarjetasStpClientes" />
+            <marker date="1515203516517" expanded="true" signature="1904:1954" ph="SELECT * FRO... tarjetasStpClientes" />
+            <marker date="1515203516517" expanded="true" signature="1904:1957" ph="SELECT * FRO... tarjetasStpClientes" />
+            <marker date="1515203516517" expanded="true" signature="1904:1970" ph="SELECT * FRO... tarjetasStpClientes" />
+            <marker date="1515203516517" expanded="true" signature="2536:2572" ph="SELECT * fro... clientes" />
           </folding>
         </state>
       </provider>
@@ -388,7 +521,159 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
           <caret line="1" column="25" lean-forward="false" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#td#2;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#2;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#a#0;n#td#2;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#2;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Flask/db/DBConfig.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" column="54" lean-forward="false" selection-start-line="9" selection-start-column="54" selection-end-line="9" selection-end-column="54" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Flask/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Flask/Flask.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#15#83#0" expanded="true" />
+            <marker date="1515203516517" expanded="true" signature="666:723" ph="SELECT id, n... clientes" />
+            <marker date="1515203516517" expanded="true" signature="1203:1284" ph="INSERT INTO comfu.tarjetasStpClientes... " />
+            <marker date="1515203516517" expanded="true" signature="1203:1296" ph="INSERT INTO comfu.tarjetasStpClientes... " />
+            <marker date="1515203516517" expanded="true" signature="1571:1616" ph="SELECT MAX(i... tarjetasStpClientes" />
+            <marker date="1515203516517" expanded="true" signature="1904:1954" ph="SELECT * FRO... tarjetasStpClientes" />
+            <marker date="1515203516517" expanded="true" signature="1904:1957" ph="SELECT * FRO... tarjetasStpClientes" />
+            <marker date="1515203516517" expanded="true" signature="1904:1970" ph="SELECT * FRO... tarjetasStpClientes" />
+            <marker date="1515203516517" expanded="true" signature="2536:2572" ph="SELECT * fro... clientes" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Flask/Flask.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#15#83#0" expanded="true" />
+            <marker date="1515203516517" expanded="true" signature="666:723" ph="SELECT id, n... clientes" />
+            <marker date="1515203516517" expanded="true" signature="1203:1284" ph="INSERT INTO comfu.tarjetasStpClientes... " />
+            <marker date="1515203516517" expanded="true" signature="1203:1296" ph="INSERT INTO comfu.tarjetasStpClientes... " />
+            <marker date="1515203516517" expanded="true" signature="1571:1616" ph="SELECT MAX(i... tarjetasStpClientes" />
+            <marker date="1515203516517" expanded="true" signature="1904:1954" ph="SELECT * FRO... tarjetasStpClientes" />
+            <marker date="1515203516517" expanded="true" signature="1904:1957" ph="SELECT * FRO... tarjetasStpClientes" />
+            <marker date="1515203516517" expanded="true" signature="1904:1970" ph="SELECT * FRO... tarjetasStpClientes" />
+            <marker date="1515203516517" expanded="true" signature="2536:2572" ph="SELECT * fro... clientes" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Flask/Flask.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#15#83#0" expanded="true" />
+            <marker date="1515203516517" expanded="true" signature="666:723" ph="SELECT id, n... clientes" />
+            <marker date="1515203516517" expanded="true" signature="1203:1284" ph="INSERT INTO comfu.tarjetasStpClientes... " />
+            <marker date="1515203516517" expanded="true" signature="1203:1296" ph="INSERT INTO comfu.tarjetasStpClientes... " />
+            <marker date="1515203516517" expanded="true" signature="1571:1616" ph="SELECT MAX(i... tarjetasStpClientes" />
+            <marker date="1515203516517" expanded="true" signature="1904:1954" ph="SELECT * FRO... tarjetasStpClientes" />
+            <marker date="1515203516517" expanded="true" signature="1904:1957" ph="SELECT * FRO... tarjetasStpClientes" />
+            <marker date="1515203516517" expanded="true" signature="1904:1970" ph="SELECT * FRO... tarjetasStpClientes" />
+            <marker date="1515203516517" expanded="true" signature="2536:2572" ph="SELECT * fro... clientes" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Flask/Flask.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#15#83#0" expanded="true" />
+            <marker date="1515203516517" expanded="true" signature="666:723" ph="SELECT id, n... clientes" />
+            <marker date="1515203516517" expanded="true" signature="1203:1284" ph="INSERT INTO comfu.tarjetasStpClientes... " />
+            <marker date="1515203516517" expanded="true" signature="1203:1296" ph="INSERT INTO comfu.tarjetasStpClientes... " />
+            <marker date="1515203516517" expanded="true" signature="1571:1616" ph="SELECT MAX(i... tarjetasStpClientes" />
+            <marker date="1515203516517" expanded="true" signature="1904:1954" ph="SELECT * FRO... tarjetasStpClientes" />
+            <marker date="1515203516517" expanded="true" signature="1904:1957" ph="SELECT * FRO... tarjetasStpClientes" />
+            <marker date="1515203516517" expanded="true" signature="1904:1970" ph="SELECT * FRO... tarjetasStpClientes" />
+            <marker date="1515203516517" expanded="true" signature="2536:2572" ph="SELECT * fro... clientes" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Flask/db/DBConfig.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Flask/templates/nuevoCliente.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="25" column="42" lean-forward="false" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Flask/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-378">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Flask/templates/detalleArticulo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="23" column="18" lean-forward="true" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Flask/Flask.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="69" column="80" lean-forward="false" selection-start-line="69" selection-start-column="80" selection-end-line="69" selection-end-column="80" />
+          <folding>
+            <element signature="e#15#83#0" expanded="true" />
+            <marker date="1515203516517" expanded="true" signature="666:723" ph="SELECT id, n... clientes" />
+            <marker date="1515203516517" expanded="true" signature="1203:1284" ph="INSERT INTO comfu.tarjetasStpClientes... " />
+            <marker date="1515203516517" expanded="true" signature="1203:1296" ph="INSERT INTO comfu.tarjetasStpClientes... " />
+            <marker date="1515203516517" expanded="true" signature="1571:1616" ph="SELECT MAX(i... tarjetasStpClientes" />
+            <marker date="1515203516517" expanded="true" signature="1904:1954" ph="SELECT * FRO... tarjetasStpClientes" />
+            <marker date="1515203516517" expanded="true" signature="1904:1957" ph="SELECT * FRO... tarjetasStpClientes" />
+            <marker date="1515203516517" expanded="true" signature="1904:1970" ph="SELECT * FRO... tarjetasStpClientes" />
+            <marker date="1515203516517" expanded="true" signature="2536:2572" ph="SELECT * fro... clientes" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Flask/templates/clientes.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="41" column="158" lean-forward="false" selection-start-line="41" selection-start-column="158" selection-end-line="41" selection-end-column="158" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#td#2;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#2;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#a#0;n#td#2;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#2;n#div#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
